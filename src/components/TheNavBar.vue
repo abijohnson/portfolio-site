@@ -17,8 +17,8 @@
 
 <script setup>
 const navigation = [
-    { name: 'About me', href: '#' },
-    { name: 'Tech I love', href: '#' },
-    { name: 'Experience/Projects', href: '#' },
+    { name: 'About me', href: '#about' },
+    { name: 'Tech I love', href: '#tech' },
+    { name: 'Experience/Projects', href: '#experience' },
 ]
 </script>
