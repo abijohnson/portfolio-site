@@ -1,7 +1,6 @@
 <script setup>
-
 import ArticleItem from '@/components/homepage/ArticleItem.vue'
-import articles from '/Users/abijohnson/Projects/personal/portfolio-site/src/data-files/articles_list.json'
+import articles from '../../data-files/articles_list.json'
 </script>
 
 <template>
