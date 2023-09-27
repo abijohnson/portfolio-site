@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Index from '../pages/index.vue'
-import About from '../pages/about.vue'
+import About from '../pages/About.vue'
 import ExperienceAndProjects from '@/pages/ExperienceAndProjects.vue'
 import Articles from "@/pages/Articles.vue"
 import NuxtVsVue from '@/pages/articles/nuxt-vs-vue.vue'
