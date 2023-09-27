@@ -29,7 +29,7 @@ const router = createRouter({
       component: Articles,
     },
     {
-      path: '/articles/nuxt-vs-vue',
+      path: '/nuxt-vs-vue',
       name: 'nuxt-vs-vue',
       component: NuxtVsVue
     },
