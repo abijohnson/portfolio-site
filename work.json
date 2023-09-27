@@ -1,0 +1,20 @@
+{
+    "1": {
+        "icon": "backit",
+        "title": "Front end developer & UX/UI Designer",
+        "company_name": "BackIt",
+        "date": "2022-Present"
+    },
+    "2": {
+        "icon": "veedback",
+        "title": "Front end developer & UX/UI Designer",
+        "company_name": "Veedback",
+        "date": "2020-2022"
+    },
+    "3": {
+        "icon": "michaels",
+        "title": "Customer Experience Manager",
+        "company_name": "Micheal's Arts & Crafts",
+        "date": "2017-2018"
+    }
+}
