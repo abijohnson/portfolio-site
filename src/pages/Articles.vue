@@ -20,5 +20,5 @@
 </template>
 <script setup>
 import ArticleCard from "@/components/articles/ArticleCard.vue";
-import articles from '/src/data-files/articles_list.json'
+import articles from '../data-files/articles_list.json'
 </script>
