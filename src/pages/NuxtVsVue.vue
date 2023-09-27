@@ -1,5 +1,5 @@
 <script setup>
-import ArticleLayout from "@/components/articles/ArticleLayout.vue";
+import ArticleLayout from '@/components/articles/ArticleLayout.vue'
 </script>
 
 <template>
