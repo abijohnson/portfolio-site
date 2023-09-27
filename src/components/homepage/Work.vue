@@ -1,7 +1,7 @@
 <script setup>
 import WorkItem from "@/components/homepage/WorkItem.vue";
 import { ArrowDownIcon, BriefcaseIcon } from "@heroicons/vue/20/solid";
-import work from '@/work.json'
+import work from '/work.json'
 </script>
 
 <template>
