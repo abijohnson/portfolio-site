@@ -33,7 +33,10 @@ const router = createRouter({
       name: 'vue-vs-nuxt',
       component: VueVSNuxt
     },
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0 }
+  },
 })
 
 export default router
