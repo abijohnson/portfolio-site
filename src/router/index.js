@@ -7,6 +7,7 @@ import VueVSNuxt from '@/pages/VueVSNuxt.vue'
 
 const router = createRouter({
   history: createWebHistory(),
+  mode: 'history',
   routes: [
     {
       path: '/',
