@@ -3,7 +3,7 @@ import Index from '../pages/index.vue'
 import About from '../pages/About.vue'
 import ExperienceAndProjects from '@/pages/ExperienceAndProjects.vue'
 import Articles from "@/pages/Articles.vue"
-import NuxtVsVue from '@/pages/NuxtVsVue.vue'
+import VueVSNuxt from '@/pages/VueVSNuxt.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,9 +29,9 @@ const router = createRouter({
       component: Articles,
     },
     {
-      path: '/nuxt-vs-vue',
-      name: 'nuxt-vs-vue',
-      component: NuxtVsVue
+      path: '/vue-vs-nuxt',
+      name: 'vue-vs-nuxt',
+      component: VueVSNuxt
     },
   ]
 })
