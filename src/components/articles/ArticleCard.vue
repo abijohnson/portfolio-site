@@ -22,13 +22,13 @@ const props = defineProps({
             <p class="relative z-10 mt-2 text-sm text-zinc-600 leading-6">
                 {{ brief_desc }}
             </p>
-            <a
+            <router-link
                 aria-hidden="true"
-                :href="link"
+                :to="link"
                 class=" z-10 mt-4 inline-flex items-center text-sm font-medium text-teal-500"
             >
                 Read article ›
-            </a>
+            </router-link>
         </div>
         <div class="relative z-10 order-first mb-3 items-center text-sm text-zinc-400 mt-1 hidden md:block">
             <span class="absolute inset-y-0 left-0 flex items-center" aria-hidden="true">
