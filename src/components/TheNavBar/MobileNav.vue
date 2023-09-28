@@ -1,6 +1,6 @@
 <script setup>
-import { ChevronDownIcon, XCircleIcon } from '@heroicons/vue/20/solid'
-import { Popover, PopoverButton, PopoverOverlay, PopoverPanel, TransitionChild, TransitionRoot } from '@headlessui/vue'
+import { ChevronDownIcon, XMarkIcon } from '@heroicons/vue/20/solid'
+import { Popover, PopoverButton, PopoverOverlay, PopoverPanel, TransitionChild, TransitionRoot, } from '@headlessui/vue'
 import MobileNavItem from "@/components/TheNavBar/NavItems/MobileNavItem.vue";
 </script>
 
@@ -12,29 +12,31 @@ import MobileNavItem from "@/components/TheNavBar/NavItems/MobileNavItem.vue";
         </PopoverButton>
         <TransitionRoot>
             <TransitionChild
-                enter="duration-150 ease-out"
-                enterFrom="opacity-0"
-                enterTo="opacity-100"
-                leave="duration-100 ease-in"
-                leaveFrom="opacity-100"
-                leaveTo="opacity-0"
+                :show="open"
+                enter="transition-opacity duration-150"
+                enter-from="opacity-0"
+                enter-to="opacity-100"
+                leave="transition-opacity duration-250"
+                leave-from="opacity-100"
+                leave-to="opacity-0"
             >
-                <PopoverOverlay class="fixed inset-0 z-50 bg-zinc-800/40 backdrop-blur-sm dark:bg-black/80" />
+                <PopoverOverlay class="fixed inset-0 z-50 bg-zinc-800/40 backdrop-blur-sm" />
             </TransitionChild>
             <TransitionChild
-                enter="duration-100 ease-out"
-                enterFrom="opacity-0 scale-95"
-                enterTo="opacity-100 scale-100"
-                leave="duration-100 ease-in"
-                leaveFrom="opacity-100 scale-100"
-                leaveTo="opacity-0 scale-95"
+                :show="open"
+                enter="transition-opacity duration-150"
+                enter-from="opacity-0"
+                enter-to="opacity-100"
+                leave="transition-opacity duration-250"
+                leave-from="opacity-100"
+                leave-to="opacity-0"
             >
                 <PopoverPanel
                     class="fixed inset-x-4 top-8 z-50 origin-top rounded-3xl bg-white p-8 ring-1 ring-zinc-900/5"
                 >
                     <div class="flex flex-row-reverse items-center justify-between">
                         <PopoverButton aria-label="Close menu" class="-m-1 p-1">
-                            <XMarkIcon className="h-6 w-6 text-zinc-500" />
+                            <XMarkIcon class="h-4 w-4 text-zinc-700" />
                         </PopoverButton>
                         <h2 class="text-sm font-medium text-zinc-600">
                             Navigation
