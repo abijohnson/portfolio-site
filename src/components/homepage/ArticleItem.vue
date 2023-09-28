@@ -11,14 +11,14 @@ const props = defineProps({
     <article class="group relative flex flex-col items-start">
         <h2 class="text-base font-semibold tracking-tight text-zinc-800">
             <div class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded-2xl" />
-            <a :href="link">
+            <router-link :to="link">
                 <span class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl">
 
                 </span>
                 <span class="relative z-10">
                     {{ title }}
                 </span>
-            </a>
+            </router-link>
         </h2>
         <div class="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 pl-3.5">
             <span class="absolute inset-y-0 left-0 flex items-center" aria-hidden="true">

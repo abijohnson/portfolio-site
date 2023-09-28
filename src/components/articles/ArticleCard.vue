@@ -11,7 +11,7 @@ const props = defineProps({
     <div class="md:grid md:grid-cols-4 md:items-baseline">
         <div class="group relative flex flex-col items-start md:col-span-3">
             <p class="text-base font-semibold tracking-tight text-zinc-800">
-                <a :href="link">{{ title }}</a>
+                <router-link :to="link">{{ title }}</router-link>
             </p>
             <div class="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 md:hidden">
                 <span class="absolute inset-y-0 left-0 flex items-center " aria-hidden="true">
