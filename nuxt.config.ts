@@ -8,4 +8,14 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      title: 'Abi Kilborn | Front-End Developer',
+      meta: [
+        { name: 'description', content: 'View my work, experience, and read my articles!' },
+      ],
+    }
+  },
 })
