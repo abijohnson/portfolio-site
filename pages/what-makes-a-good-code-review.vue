@@ -65,6 +65,8 @@ useSeoMeta({
                 Attributes of a good code review
             </p>
             <p class="pt-3">
+                Good comments/code reviews should be helpful, understandable, and useful. They should have a goal, they shouldn't be a laundry list of
+                unnecessary comments or irrelevant "teaching moments" (AKA: You just showing a junior how much you know).
                 Here are some good examples of comments:
                 <ul class="list-disc pl-12 py-3 space-y-2">
                     <li>While I understand what's going on here, I believe it could be made a bit more clear. Have you thought about ___?</li>
