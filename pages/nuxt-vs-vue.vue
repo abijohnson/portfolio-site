@@ -1,5 +1,11 @@
-<script setup>
+<script setup lang="ts">
 import ArticleLayout from '~/components/articles/ArticleLayout.vue'
+useSeoMeta({
+    title: 'Nuxt vs Vue: Which should you pick for your app and why?',
+    ogTitle: 'Nuxt vs Vue: Which should you pick for your app and why?',
+    description: 'Both seem to be very similar, yet very different. Find out which will be best for your app!',
+    ogDescription: 'Both seem to be very similar, yet very different. Find out which will be best for your app!',
+})
 </script>
 
 <template>
