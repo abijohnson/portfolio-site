@@ -21,7 +21,7 @@ import projects from '../data-files/projects.json'
             <p class="font-bold tracking-tight text-zinc-800 text-2xl mb-5 decoration-teal-500 underline-offset-2 underline">
                 Tech/Languages/Frameworks
             </p>
-            <p class="text-sm text-zinc-600 leading-6 ">
+            <p class="text-zinc-600 leading-6 ">
                 Vue3, Vue2, Nuxt2, Nuxt3, TailwindCSS, Figma, Javascript, HTML, CSS, Adobe Creative Suite (Photoshop, Illustrator, Premiere Pro), Agile Methodologies, Monday, Jira, RESTful APIs, Pinia, Vuex, Vue Router
             </p>
         </div>
