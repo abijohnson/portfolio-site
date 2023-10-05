@@ -74,7 +74,7 @@ useSeoMeta({
                     <li>This code has an unintended side effect of ___. <span class="italic text-zinc-400">(Psst. Make it about the code, not the people)</span></li>
                     <li>Nit: Change double quotes to single quotes</li>
                 </ul>
-                Another thing that helps comes from <a href="https://google.github.io/eng-practices/review/reviewer/" class="underline decoration-teal-500 font-semibold">Google</a> themselves which is this: Labels! Labeling comment
+                Another thing that helps comes from <a href="https://google.github.io/eng-practices/review/reviewer/" class="underline decoration-teal-500 font-semibold" target="_blank" rel="noopener noreferrer">Google</a> themselves which is this: Labels! Labeling comment
                 severity can be hugely helpful to not only your developers, but the timeline of the feature. Some examples of
                 labels:
                 <ul class="list-disc pl-12 py-3 space-y-2">
