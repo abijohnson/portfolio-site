@@ -2,6 +2,7 @@
 import michaels_logo from '../../assets/imgs/michaels_logo.png'
 import backit_logo from '../../assets/imgs/backit_logo.png'
 import veedback_logo from '../../assets/imgs/veedback_logo.png'
+import { BriefcaseIcon } from "@heroicons/vue/24/outline";
 
 const props = defineProps({
     icon: String,
@@ -21,7 +22,8 @@ const icons = {
 <template>
     <li class="flex gap-4">
         <div class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5">
-            <img :src="icons[icon]" alt="" class="h-7 w-7" />
+            <img v-if="icons[icon]" :src="icons[icon]" alt="" class="h-7 w-7" />
+            <BriefcaseIcon v-else class="h-5 w-5 text-gray-600" />
         </div>
         <dl class="flex flex-auto flex-wrap gap-x-2">
             <dt class="sr-only">Company</dt>

@@ -26,12 +26,10 @@ import SocialLink from '@/components/homepage/SocialLink.vue'
                     In 2018 I attended Western Oregon University, and earned my Bachelor of Science in Computer Science in 2020 (the best year to graduate, right?).
                     Shortly after, I had the privilege of beginning my career on a small, tight-knit startup team. While on that team, I began a UX/UI Designer role
                     in tandem with my Front-End Development role, which gave me not only a unique perspective on the front-end, but a passion for
-                    pixel-perfect implementation.
+                    pixel-perfect implementation. Ever since then, I've been able to keep doing both development and design, which helps me grow in both areas!
                 </p>
                 <p>
-                    Currently, I'm on the lookout for my next role. What am I looking for? A team that can foster growth, success, and creativity. Nothing
-                    gets me more excited than the ability to learn something new, and make meaningful contributions to a growing team. And by meaningful
-                    contributions, I do also mean the occasional dad-joke.
+                    Aside from development, I love connecting with people, reading books, and crocheting gifts for my family and friends!
                 </p>
             </div>
         </div>
@@ -40,7 +38,7 @@ import SocialLink from '@/components/homepage/SocialLink.vue'
                 <SocialLink link="https://www.linkedin.com/in/abigail-kilborn-8170521ab/" icon="linkedIn">
                     Connect on LinkedIn
                 </SocialLink>
-                <SocialLink link="https://github.com/abijohnson" icon="github" class="mt-4">
+                <SocialLink link="https://github.com/abikilborn" icon="github" class="mt-4">
                     Follow on GitHub
                 </SocialLink>
                 <SocialLink

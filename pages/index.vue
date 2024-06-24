@@ -8,7 +8,7 @@
             <div class="max-w-2xl mt-9">
                 <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl">Front-End developer, UX/UI designer, and people enthusiast.</h1>
                 <p class="mt-6 text-base text-zinc-600">
-                    I'm Abi, a front-end developer based in Oklahoma. With 3 years of professional experience (and 5 years total) in development and design, I know we'd make a great team.
+                    I'm Abi, a front-end developer based in Oklahoma. With 4 years of professional experience in development and design, I know we'd make a great team.
                 </p>
             </div>
             <div class="mt-6 flex gap-6">
@@ -17,7 +17,7 @@
                     <IconLinkedIn class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600" />
                 </a>
                 <!--Github-->
-                <a href="https://github.com/abijohnson" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/abikilborn" target="_blank" rel="noopener noreferrer">
                     <IconGitHub class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600" />
                 </a>
             </div>
