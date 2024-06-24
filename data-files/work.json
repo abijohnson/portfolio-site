@@ -1,20 +1,20 @@
 {
     "1": {
+        "icon": "none",
+        "title": "Front end developer & UX/UI Designer",
+        "company_name": "Campaign Nucleus",
+        "date": "2023-Present"
+    },
+    "2": {
         "icon": "backit",
         "title": "Front end developer & UX/UI Designer",
         "company_name": "BackIt",
-        "date": "2022-Present"
+        "date": "2022-2023"
     },
-    "2": {
+    "3": {
         "icon": "veedback",
         "title": "Front end developer & UX/UI Designer",
         "company_name": "Veedback",
         "date": "2020-2022"
-    },
-    "3": {
-        "icon": "michaels",
-        "title": "Customer Experience Manager",
-        "company_name": "Micheal's Arts & Crafts",
-        "date": "2017-2018"
     }
 }
